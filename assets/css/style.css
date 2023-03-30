@@ -553,6 +553,9 @@ h4 {
   color: #ffffff;
   background-color: #f0145a;
 }
+.actions__locations {
+  max-width: 208px;
+}
 .actions__locations-link {
   color: #ffffff;
 
@@ -620,6 +623,7 @@ h4 {
 .slider__header {
   position: relative;
 
+  max-width: 527px;
   margin: 0;
 
   -webkit-user-select: none;
@@ -1669,6 +1673,9 @@ h4 {
   color: #ffffff;
   background-color: #f0145a;
 }
+.about-actions__locations {
+  max-width: 208px;
+}
 .about-actions__locations-link {
   color: #b3b3ba;
 
@@ -2173,6 +2180,9 @@ h4 {
   color: #ffffff;
   background-color: #f0145a;
 }
+.team-actions__locations {
+  max-width: 208px;
+}
 .team-actions__locations-link {
   color: #b3b3ba;
 
@@ -2535,6 +2545,9 @@ h4 {
 .member-actions__language-link:hover {
   color: #ffffff;
   background-color: #f0145a;
+}
+.member-actions__locations {
+  max-width: 208px;
 }
 .member-actions__locations-link {
   color: #b3b3ba;
@@ -3006,6 +3019,9 @@ h4 {
   color: #ffffff;
   background-color: #f0145a;
 }
+.contact-actions__locations {
+  max-width: 208px;
+}
 .contact-actions__locations-link {
   color: #b3b3ba;
 
@@ -3270,7 +3286,7 @@ h4 {
   margin-top: 27px;
 }
 .contact__address {
-  max-width: 390px;
+  max-width: 280px;
   margin-bottom: 20px;
 
   color: #323264;
@@ -3280,7 +3296,7 @@ h4 {
   line-height: 30px;
 }
 .contact__phone {
-  max-width: 390px;
+  max-width: 280px;
   margin-top: 40px;
   margin-bottom: 20px;
 
@@ -3293,7 +3309,7 @@ h4 {
   color: #f0145a;
 }
 .contact__email {
-  max-width: 390px;
+  max-width: 280px;
   margin-bottom: 40px;
 
   color: #24a3ff;
@@ -3817,6 +3833,9 @@ h4 {
 .services-actions__language-link:hover {
   color: #ffffff;
   background-color: #f0145a;
+}
+.services-actions__locations {
+  max-width: 208px;
 }
 .services-actions__locations-link {
   color: #ffffff;
@@ -4412,6 +4431,7 @@ h4 {
     gap: 15px;
   }
   .menu__link {
+    max-width: 90px;
     padding: 0.25em 0;
   }
   .actions {
@@ -4438,6 +4458,7 @@ h4 {
     gap: 15px;
   }
   .about-menu__link {
+    max-width: 90px;
     padding: 0.25em 0;
   }
   .about-actions {
@@ -4464,6 +4485,7 @@ h4 {
     gap: 15px;
   }
   .team-menu__link {
+    max-width: 90px;
     padding: 0.25em 0;
   }
   .member-actions {
@@ -4485,6 +4507,7 @@ h4 {
     gap: 15px;
   }
   .member-menu__link {
+    max-width: 90px;
     padding: 0.25em 0;
   }
   .contact-actions {
@@ -4506,6 +4529,7 @@ h4 {
     gap: 15px;
   }
   .contact-menu__link {
+    max-width: 90px;
     padding: 0.25em 0;
   }
   .services-actions {
@@ -4527,6 +4551,7 @@ h4 {
     gap: 15px;
   }
   .services-menu__link {
+    max-width: 90px;
     padding: 0.25em 0;
   }
   .facilities__title {
@@ -4763,6 +4788,8 @@ h4 {
     padding-right: 0;
   }
   .slider__header {
+    max-width: 330px;
+
     font-size: 35px;
   }
   .slider__description {
@@ -4834,6 +4861,9 @@ h4 {
   }
   .about-actions__locations {
     display: none;
+  }
+  .introduction__content {
+    max-width: 575px;
   }
   .advantages__item {
     max-width: 150px;
@@ -4986,12 +5016,8 @@ h4 {
   .slider__header {
     display: none;
 
-    width: -webkit-min-content;
-    width:    -moz-min-content;
-    width:         min-content;
     margin-bottom: 10px;
 
-    white-space: nowrap;
     letter-spacing: 1px;
     text-transform: uppercase;
 
@@ -5429,7 +5455,7 @@ h4 {
     display: none;
   }
   .introduction__content {
-    max-width: 500px;
+    max-width: 455px;
   }
   .introduction__content-title {
     font-size: 32px;
@@ -5440,6 +5466,9 @@ h4 {
 
     font-size: 18px;
     line-height: 26px;
+  }
+  .advantages__item {
+    max-width: 460px;
   }
   .advantages__item-content {
     -webkit-box-pack: start;
@@ -5458,6 +5487,8 @@ h4 {
     line-height: 400px;
   }
   .information__content-title {
+    max-width: 390px;
+
     font-size: 32px;
     line-height: 38px;
   }
@@ -5981,10 +6012,10 @@ h4 {
     height: 120px;
   }
   .introduction__content {
-    max-width: 430px;
+    max-width: 393px;
   }
   .advantages__item {
-    max-width: 430px;
+    max-width: 400px;
   }
   .information {
     padding-bottom: 40px;
@@ -6156,10 +6187,13 @@ h4 {
     max-width: 260px;
   }
   .introduction__content {
-    max-width: 370px;
+    max-width: 335px;
   }
   .advantages__item {
     max-width: 370px;
+  }
+  .advantages__item-text {
+    max-width: 230px;
   }
   .information__content-title {
     max-width: 334px;
@@ -6198,6 +6232,9 @@ h4 {
   }
 }
 @media (max-width: 359.8px) {
+  .slider__header {
+    max-width: 250px;
+  }
   .slider__notes {
     max-width: 335px;
   }
@@ -6222,8 +6259,20 @@ h4 {
   .information__content-description {
     max-width: 250px;
   }
+  .contents__heading {
+    max-width: 260px;
+  }
   .contents__heading--name {
     max-width: 250px;
+  }
+  .info__position {
+    max-width: 260px;
+  }
+  .info__email {
+    max-width: 260px;
+  }
+  .info__social {
+    max-width: 260px;
   }
   .biography__text {
     max-width: 250px;

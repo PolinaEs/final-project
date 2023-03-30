@@ -33,8 +33,12 @@
       max-width: 500px;
     }
 
+    @include sm {
+      max-width: 460px;
+    }
+
     @include xs {
-      max-width: 430px;
+      max-width: 400px;
     }
 
     @include xx {
@@ -70,6 +74,11 @@
 
       @include sm {
         margin-bottom: 0;
+
+      }
+
+      @include xx {
+        max-width: 230px;
       }
 
     }

@@ -47,6 +47,7 @@
   }
 
   &__locations {
+    max-width: 208px;
 
     @include lg {
       display: none;

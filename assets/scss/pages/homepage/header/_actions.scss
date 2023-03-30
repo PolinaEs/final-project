@@ -50,6 +50,7 @@
   }
 
   &__locations {
+    max-width: 208px;
 
     @include sm {
       display: none;

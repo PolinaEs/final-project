@@ -19,16 +19,20 @@
   &__content {
     max-width: 641px;
 
+    @include lg {
+      max-width: 575px;
+    }
+
     @include sm {
-      max-width: 500px;
+      max-width: 455px;
     }
 
     @include xs {
-      max-width: 430px;
+      max-width: 393px;
     }
 
     @include xx {
-      max-width: 370px;
+      max-width: 335px;
     }
 
     @include ux {

@@ -23,6 +23,11 @@
       max-width: 335px;
     }
 
+
+    @include ux {
+      max-width: 260px;
+    }
+
   }
 
   &__email {
@@ -33,6 +38,11 @@
 
     @include sm {
       max-width: 335px;
+    }
+
+
+    @include ux {
+      max-width: 260px;
     }
 
     &--link {
@@ -50,6 +60,11 @@
 
     @include sm {
       max-width: 335px;
+    }
+
+
+    @include ux {
+      max-width: 260px;
     }
 
     &--link {

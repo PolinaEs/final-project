@@ -13,6 +13,10 @@
   &__heading {
     max-width: 641px;
 
+    @include ux {
+      max-width: 260px;
+    }
+
     &--name {
       @extend %text-liner-gradient;
       font-weight: 700;
