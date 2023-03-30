@@ -5,7 +5,11 @@
   height: 184px;
   background: $color-white;
 
-  @include xs {
+  @include lg {
+    height: 220px;
+  }
+
+  @include sm {
     height: 120px;
   }
 

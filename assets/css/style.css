@@ -4852,6 +4852,9 @@ h4 {
   .clients__content {
     grid-template-columns: repeat(3, 1fr);
   }
+  .about-header {
+    height: 220px;
+  }
   .about-header__container {
     padding-top: 30px;
 
@@ -4876,6 +4879,9 @@ h4 {
   }
   .information__content-description {
     max-width: 475px;
+  }
+  .team-header {
+    height: 220px;
   }
   .team-header__container {
     padding-top: 30px;
@@ -5421,6 +5427,9 @@ h4 {
 
     text-align: center;
   }
+  .about-header {
+    height: 120px;
+  }
   .about-header__container {
     padding-top: 20px;
 
@@ -5527,6 +5536,9 @@ h4 {
     max-width: 335px;
 
     text-align: center;
+  }
+  .team-header {
+    height: 120px;
   }
   .team-header__container {
     padding-top: 20px;
@@ -6008,9 +6020,6 @@ h4 {
   .block__body-description {
     display: none;
   }
-  .about-header {
-    height: 120px;
-  }
   .introduction__content {
     max-width: 393px;
   }
@@ -6033,9 +6042,6 @@ h4 {
   }
   .achievement__item--img {
     width: 40%;
-  }
-  .team-header {
-    height: 120px;
   }
   .members__title {
     padding-bottom: 22px;
